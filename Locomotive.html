@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locomotive page Scroll</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+   
+    
+</head>
+<body>
+    
+ 
+
+    <div data-scroll-container  >
+
+    <section data-scroll-section=""> 
+      
+    
+       
+        <span class="lerp-wrap" data-scroll="" >
+            <span  data-scroll=""data-scroll-delay="0.18" data-scroll-speed ="-15" >G</span>
+            <span  data-scroll=""data-scroll-delay="0.16" data-scroll-speed ="-15" >A</span>
+            <span  data-scroll=""data-scroll-delay="0.14" data-scroll-speed ="-15" >U</span>
+            <span  data-scroll=""data-scroll-delay="0.09" data-scroll-speed ="-15" >R</span>
+            <span  data-scroll=""data-scroll-delay="0.09" data-scroll-speed ="-13" >A</span>
+            <span  data-scroll=""data-scroll-delay="0.09" data-scroll-speed ="-13" >V</span>
+            
+        </span>
+
+    </section>
+
+    <section data-scroll-section=""> 
+        
+        <span class="lerp-wrap" data-scroll="" >
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.18" data-scroll-speed ="-16" >N</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.14" data-scroll-speed ="-16" >A</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.12" data-scroll-speed ="-16" >N</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.10" data-scroll-speed ="-16" >D</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.10" data-scroll-speed ="-16" >E</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.10" data-scroll-speed ="-16" >D</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.10" data-scroll-speed ="-16" >K</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.10" data-scroll-speed ="-16" >A</span>
+            <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.10" data-scroll-speed ="-16" >R</span>
+            
+        </span>
+
+    </section>
+
+        <section data-scroll-section=""> 
+       
+            <span class="lerp-wrap" data-scroll="" >
+                <span  data-scroll=""data-scroll-delay="0.18" data-scroll-speed ="-2" >W</span>
+                <span  data-scroll=""data-scroll-delay="0.14" data-scroll-speed ="-2" >I</span>
+                <span  data-scroll=""data-scroll-delay="0.12" data-scroll-speed ="-2" >N</span>
+                <span  data-scroll=""data-scroll-delay="0.10" data-scroll-speed ="-2" >S</span>
+               
+                
+            </span>
+    
+        </section>
+      
+        <section data-scroll-section=""> 
+      
+            <span class="lerp-wrap" data-scroll="" >
+                <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.18" data-scroll-speed ="-16" >G</span>
+                <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.14" data-scroll-speed ="-16" >O</span>
+                <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.12" data-scroll-speed ="-16" >A</span>
+                <span  data-scroll=""data-scroll-direction ="horizontal" data-scroll-delay="0.10" data-scroll-speed ="-16" >L</span>
+                
+            </span>
+    
+        </section>
+
+    
+ 
+
+
+  
+
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <script>
+
+        const LocoScroll =new LocomotiveScroll({
+            el:document.querySelector("[data-scroll-container]"),
+            smooth:true,
+            smartphone:{
+                smooth:true
+
+            }
+        });
+    </script>
+    
+</body>
+</html>
